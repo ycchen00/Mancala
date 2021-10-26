@@ -16,31 +16,31 @@ argparse
 
 ## Usage
 
-Player options:
-human= human as the player
-random = random legal moves
-minmax = uses minimax algorithm to choose next move
-alphabeta = minmax using alpha-beta pruning
+Player options:  
+human= human as the player  
+random = random legal moves  
+minmax = uses minimax algorithm to choose next move  
+alphabeta = minmax using alpha-beta pruning  
 
 
 
-For Linux users:
-`./src/play.py Player1 Player2` 
-e.g.
-`./src/play.py radom human`
+For Linux users:  
+`./src/play.py Player1 Player2`   
+e.g.  
+`./src/play.py radom human`  
 
-For windows users:
-`python ./src/play.py Player1 Player2` 
-e.g.
-`python ./src/play.py radom human`
+For windows users:  
+`python ./src/play.py Player1 Player2`   
+e.g.  
+`python ./src/play.py radom human`  
 
-the maximum depth of the player can be changed with a default value of 6
-e.g.
-`python ./src/play.py minimax alphabeta -d1 6 -d2 8`
+the maximum depth of the player can be changed with a default value of 6  
+e.g.  
+`python ./src/play.py minimax alphabeta -d1 6 -d2 8`  
 
-![](https://github.com/ycchen00/Mancala/assets/begingame/png)
+![](https://github.com/ycchen00/Mancala/blob/master/assets/begingame.png)  
 
-![](https://github.com/ycchen00/Mancala/assets/gameover/png)
+![](https://github.com/ycchen00/Mancala/blob/master/assets/gameover.png)
 
 ## Document
 The writeup includes some designs and experiments between algorithms: [writeup](https://github.com/ycchen00/Mancala/blob/master/writeup.pdf)
